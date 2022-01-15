@@ -1,0 +1,23 @@
+.footer{
+    @apply py-8 md:py-16 border-0 border-t;
+}
+
+.footerHolder{
+    @apply flex flex-row justify-between gap-5
+}
+
+.footerUp p{
+    @apply text-white;
+}
+
+.footerDown{
+    @apply flex flex-row gap-5;
+}
+
+.navLinks{
+    @apply text-white w-5 h-7;
+}
+
+.navLinks:hover{
+    @apply text-indigo-900;
+  }

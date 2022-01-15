@@ -1,116 +1,144 @@
-.container {
-  padding: 0 2rem;
+/* -------------------- hero -------------------- */
+
+.hero{
+  @apply flex flex-row mt-44 mb-32 relative;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.heroLeft{
+  @apply flex flex-col gap-16;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.heroText{
+  @apply flex flex-col gap-4;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.heroText p{
+  @apply text-white;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.heroH3{
+  @apply text-base lg:text-lg font-bold;
+  font-family: 'Sansation Bold';
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.heroText h3{
+ @apply text-indigo-900;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.heroText h1{
+  @apply text-6xl;
 }
 
-.title,
-.description {
-  text-align: center;
+.heroText p{
+  @apply w-3/4;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.heroContact{
+  @apply flex flex-row gap-8;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.heroContactH3{
+  @apply text-lg font-bold;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.heroLinks{
+  @apply text-white w-7 h-9;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.heroLinks:hover{
+  @apply text-indigo-900;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.linksHolder{
+  @apply flex flex-row gap-8;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+
+.heroRight{
+  @apply w-1/2 lg:w-2/5 absolute right-0 lg:static ;
+  z-index: -10;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.imgHolder{
+  @apply w-full h-full flex justify-center;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.heroImage{
+  @apply my-auto opacity-25 lg:opacity-50 object-imgdesk xs:object-imgdefault;
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+/* -------------------- featured projects -------------------- */
+
+.featured{
+  @apply flex flex-col py-16;
+}
+
+.featured h1{
+}
+
+.projectsHolder{
+ @apply flex flex-col w-full md:w-5/6 mx-auto;
+}
+
+.projects{
+  @apply flex flex-col md:flex-row my-16 gap-8  items-center;
+}
+
+.caseStudy{
+  @apply mt-5 text-indigo-900 font-bold flex flex-row gap-8;
+  font-family: 'Sansation';
+}
+
+.projects:nth-child(odd){
+  @apply flex-col md:flex-row-reverse;
+}
+
+.projects img{
+  @apply w-96 md:w-80;
+}
+
+.projectHead h2{
+  font-family: 'Sansation Bold';
+}
+
+.projectHead{
+  @apply flex flex-col mb-3 gap-1;
+}
+
+/* -------------------- My story -------------------- */
+.about{
+  @apply py-16 items-center;
+}
+
+.about h1{
+  @apply mb-8;
+}
+
+.aboutHolder{
+  @apply flex flex-col w-full md:w-5/6 mx-auto gap-1;
+}
+
+.aboutText{
+  @apply flex flex-col gap-5 my-8;
+}
+
+/* -------------------- My skills -------------------- */
+.skills{
+  @apply flex flex-col py-16;
+}
+
+.skills h1{
+  @apply mb-8;
+}
+
+.skills span{
+  @apply text-gray-400;
+}
+
+.skillsHolder{
+  @apply grid gap-5 grid-cols-2 sm:grid-cols-4 w-full md:w-5/6 mx-auto my-8;
 }
