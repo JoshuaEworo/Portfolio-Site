@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 
 import styles from '../styles/Works.module.css'
-import ProjectsBlock from '../components/projectsBlock';
+import ProjectsBlock from '../components/ProjectsBlock';
 
 export default function Works() {
     const featuredProjects = [

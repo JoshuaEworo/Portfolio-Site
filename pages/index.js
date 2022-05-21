@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import ProjectsBlock from '../components/projectsBlock';
+import ProjectsBlock from '../components/ProjectsBlock';
 
 export default function Home() {
 
