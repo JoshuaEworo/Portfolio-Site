@@ -7,7 +7,7 @@ module.exports = {
         'xs': '450px',
       },
       objectPosition: {
-        'imgdesk': '-215px 0px',
+        'imgdesk': '-170px 0px',
         'imgdefault' :  '-170px 0px',
       },
     },

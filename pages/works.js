@@ -3,40 +3,47 @@ import Navbar from '../components/Navbar'
 import ContactBlock from '../components/ContactBlock';
 import Footer from '../components/Footer';
 
+import Image from 'next/image';
+
 import styles from '../styles/Works.module.css'
+import ProjectsBlock from '../components/projectsBlock';
 
 export default function Works() {
     const featuredProjects = [
         {
+            id: 1,
             name: 'Weather App',
             tags: 'React | OpenWeatherApp API | CSS',
-            desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet quidem, inventore alias eos veritatis, neque cum aperiam quaerat sint culpa, repudiandae similique! Corrupti libero quis molestias laboriosam.',
+            desc: 'A simple weather web application made with ReactJS and the OpenWeatherApp API.',
             img: 'https://i.ibb.co/q1tmqTH/Weather-App-Logo-1.png',
-            viewdemo: '/',
-            viewcode: '/',
-        },
-        // {
-        //   name: 'Google Homepage UI Clone',
-        //   tags: 'HTML | CSS',
-        //   desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet quidem, inventore alias eos veritatis, neque cum aperiam quaerat sint culpa, repudiandae similique! Corrupti libero quis molestias laboriosam.',
-        //   img: 'https://i.ibb.co/X78pb2W/Google-Logo.png'
-        // },
-        {
+            viewdemo: 'https://joshuaeworo.github.io/React-Weather-App/',
+            viewcode: 'https://github.com/JoshuaEworo/React-Weather-App',
+            },
+            // {
+            //   name: 'Google Homepage UI Clone',
+            //   tags: 'HTML | CSS',
+            //   desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet quidem, inventore alias eos veritatis, neque cum aperiam quaerat sint culpa, repudiandae similique! Corrupti libero quis molestias laboriosam.',
+            //   img: 'https://i.ibb.co/X78pb2W/Google-Logo.png'
+            // },
+            {
+            id: 2,
             name: 'To-do List App',
             tags: 'React | JavaScript',
-            desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet quidem, inventore alias eos veritatis, neque cum aperiam quaerat sint culpa, repudiandae similique! Corrupti libero quis molestias laboriosam.',
+            desc: 'A to-do list web application made using ReactJS that has CRUD functionality.',
             img: 'https://i.ibb.co/0yHFv59/To-Do-Logo.png',
-            viewdemo: '/',
-            viewcode: '/',
-        },
-        {
+            viewdemo: 'https://joshuaeworo.github.io/React-Todo-App/',
+            viewcode: 'https://github.com/JoshuaEworo/React-Todo-App',
+            },
+            {
+            id: 3,
             name: 'ClientSyde - CRM App',
-            tags: 'React | OpenWeatherApp API | CSS',
-            desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet quidem, inventore alias eos veritatis, neque cum aperiam quaerat sint culpa, repudiandae similique! Corrupti libero quis molestias laboriosam.',
+            tags: 'React | Bootstrap | Localhost',
+            desc: 'A bare-bones web application for handling and keeping track of client information that has CRUD, search, and filter functionality.',
             img: 'https://i.ibb.co/LCc498v/Client-SYDE-Logo.png',
-            viewdemo: '/',
-            viewcode: '/',
-        },
+            viewdemo: 'https://JoshuaEworo.github.io/React-CRM-App',
+            viewcode: 'https://github.com/JoshuaEworo/React-CRM-App',
+            },
+            
     ]
 
     return (
@@ -54,27 +61,7 @@ export default function Works() {
                 </section>
 
                 <section className={styles.featured}>
-                    <div className={styles.projectsHolder}>
-                        {featuredProjects.map(project => {
-                            return (
-
-                                <div className={styles.projects}>
-                                    <div>
-                                        <div className={styles.projectHead}>
-                                            <h2 className="h2">{project.name}</h2>
-                                            <small>{project.tags}</small>
-                                        </div>
-                                        <p>{project.desc}</p>
-                                        <div className={styles.caseStudy}>
-                                            <a href={project.viewdemo}>View Demo &#10132;</a>
-                                            <a href={project.viewcode}>View Code &#10132;</a>
-                                        </div>
-                                    </div>
-                                    <img src={project.img} alt="Weather App Logo" width='500' height='500' />
-                                </div>
-                            )
-                        })}
-                    </div>
+                    <ProjectsBlock />
                 </section>
 
                 <ContactBlock />

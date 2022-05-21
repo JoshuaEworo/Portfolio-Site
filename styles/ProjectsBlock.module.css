@@ -1,0 +1,32 @@
+.projectsHolder{
+    @apply flex flex-col w-full md:w-5/6 mx-auto;
+}
+   
+.projects{
+    @apply flex flex-col md:flex-row my-16 gap-8  items-center;
+}
+
+.caseStudy{
+    @apply mt-5 text-indigo-900 font-bold flex flex-row gap-8;
+    font-family: 'Sansation';
+}
+
+.projects:nth-child(odd){
+    @apply flex-col md:flex-row-reverse;
+}
+
+.projectInfo{
+    @apply md:w-8/12;
+}
+
+.projectImage{
+    @apply w-96 md:w-80 flex justify-center;
+}
+
+.projectHead h2{
+    font-family: 'Sansation Bold';
+}
+
+.projectHead{
+    @apply flex flex-col mb-3 gap-1;
+}

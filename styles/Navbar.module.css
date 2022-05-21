@@ -24,7 +24,7 @@
   }
 
   .logo{
-    @apply w-6 h-8 md:w-7 md:h-9 text-indigo-600;
+    @apply w-5 h-7 text-indigo-600;
   }
 
   .darkMode{

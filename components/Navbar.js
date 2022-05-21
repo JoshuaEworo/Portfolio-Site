@@ -36,12 +36,12 @@ export default function Navbar() {
         <>
             <navbar className={styles.nav}>
                 <div className={styles.mainNav}>
-                    <div className={styles.darkMode}>
+                    {/* <div className={styles.darkMode}>
                         <svg className={styles.dMode} viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 
                             <path fillRule="evenodd" clipRule="evenodd" d="M35 18C35 27.3888 27.3888 35 18 35C17.235 35 16.4818 34.9495 15.7435 34.8516C13.0776 33.0167 9 28.4949 9 18C9 7.50508 13.0776 2.98327 15.7435 1.14844C16.4818 1.05053 17.235 1 18 1C27.3888 1 35 8.61116 35 18ZM18 0C27.9411 0 36 8.05887 36 18C36 27.9411 27.9411 36 18 36C8.05887 36 0 27.9411 0 18C0 8.05887 8.05887 0 18 0Z" fill="white" />
                         </svg>
-                    </div>
+                    </div> */}
 
                     <div className={styles.thelogo}>
                         <Link href="/"><a>
@@ -62,11 +62,10 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-
+                
                 {menuOpen == false ? true : (
                     dropMenu()
                 )}
-                
             </navbar>
 
         </>

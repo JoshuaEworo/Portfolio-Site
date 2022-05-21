@@ -7,21 +7,21 @@
   font-family: 'Sansation';
   font-style: normal;
   font-weight: normal;
-  src: url("https://fonts.animaapp.com/Sansation-Regular") format("truetype");
+  src: url("https://fonts.animaapp.com/Sansation-Regular") format("WOFF2");
 }
 
 @font-face {
   font-family: 'Sansation Light';
   font-style: normal;
   font-weight: normal;
-  src: url("https://fonts.animaapp.com/SansationLight-Light") format("truetype");
+  src: url("https://fonts.animaapp.com/SansationLight-Light") format("WOFF2");
 }
 
 @font-face {
   font-family: 'Sansation Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("https://fonts.animaapp.com/Sansation-Bold") format("truetype");
+  src: url("https://fonts.animaapp.com/Sansation-Bold") format("WOFF2");
 }
 
 /* Tag styles */
@@ -52,6 +52,7 @@
     color: white;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
   }
 
@@ -106,4 +107,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   @apply bg-indigo-900 shadow-inner rounded;
+}
+
+html{
+  scroll-behavior: smooth;
 }

@@ -1,15 +1,15 @@
 /* -------------------- hero -------------------- */
 
 .hero{
-  @apply flex flex-row mt-44 mb-32 relative;
+  @apply flex flex-col sm:pt-40 sm:mb-32 relative justify-center h-screen;
 }
 
-.heroLeft{
-  @apply flex flex-col gap-16;
+.heroMain{
+  @apply flex flex-col gap-16 my-auto;
 }
 
 .heroText{
-  @apply flex flex-col gap-4;
+  @apply flex flex-col gap-4 text-center w-full;
 }
 
 .heroText p{
@@ -26,15 +26,15 @@
 }
 
 .heroText h1{
-  @apply text-6xl;
+  @apply text-3xl font-bold sm:text-6xl;
 }
 
 .heroText p{
-  @apply w-3/4;
+  @apply sm:w-3/4 mx-auto;
 }
 
 .heroContact{
-  @apply flex flex-row gap-8;
+  @apply flex flex-row gap-8 justify-center;
 }
 
 .heroContactH3{
@@ -53,60 +53,23 @@
   @apply flex flex-row gap-8;
 }
 
-
-.heroRight{
-  @apply w-1/2 lg:w-2/5 absolute right-0 lg:static ;
-  z-index: -10;
+.scroll{
+  @apply lg:mt-32 flex justify-center text-center pb-1;
 }
 
-.imgHolder{
-  @apply w-full h-full flex justify-center;
+.scroll p{
+  @apply border-t-2 border-l-2 border-r-2 border-indigo-900;
+  width: 10em;
 }
 
-.heroImage{
-  @apply my-auto opacity-25 lg:opacity-50 object-imgdesk xs:object-imgdefault;
-  border-radius: 50%;
-  width: 20em;
-  height: 20em;
-  object-fit: cover;
+.scroll p:hover{
+  cursor: pointer;
 }
 
 /* -------------------- featured projects -------------------- */
 
 .featured{
   @apply flex flex-col py-16;
-}
-
-.featured h1{
-}
-
-.projectsHolder{
- @apply flex flex-col w-full md:w-5/6 mx-auto;
-}
-
-.projects{
-  @apply flex flex-col md:flex-row my-16 gap-8  items-center;
-}
-
-.caseStudy{
-  @apply mt-5 text-indigo-900 font-bold flex flex-row gap-8;
-  font-family: 'Sansation';
-}
-
-.projects:nth-child(odd){
-  @apply flex-col md:flex-row-reverse;
-}
-
-.projects img{
-  @apply w-96 md:w-80;
-}
-
-.projectHead h2{
-  font-family: 'Sansation Bold';
-}
-
-.projectHead{
-  @apply flex flex-col mb-3 gap-1;
 }
 
 /* -------------------- My story -------------------- */
@@ -124,6 +87,13 @@
 
 .aboutText{
   @apply flex flex-col gap-5 my-8;
+}
+
+.reachOut{
+  text-decoration: underline;
+  text-decoration-color:rgb(49, 46, 129);
+  text-underline-offset: 0.65em;
+  text-decoration-thickness: 3px;
 }
 
 /* -------------------- My skills -------------------- */
