@@ -85,8 +85,8 @@ export default function Home() {
         
       </Head>
 
+      <Navbar />
       <main className=''>
-        <Navbar />
 
         <motion.section className={styles.hero} ref={heroRef} variants={fadeInHeroVariant} initial="hidden" animate={heroControl}>
           <div className={styles.heroMain} >
@@ -103,7 +103,7 @@ export default function Home() {
                 {/* flex flex-row gap-8 mt-2 */}
                 <a href="https://github.com/JoshuaEworo" rel="noreferrer" target="_blank"><FaGithub className={styles.heroLinks} /></a>
                 <a href="https://www.linkedin.com/in/joshuaeworo/" rel="noreferrer" target="_blank"><FaLinkedin className={styles.heroLinks} /></a>
-                <a href="https://twitter.com/VastLark" rel="noreferrer" target="_blank"><FaTwitter className={styles.heroLinks} /></a>
+                <a href="https://twitter.com/JoshuaEworo/" rel="noreferrer" target="_blank"><FaTwitter className={styles.heroLinks} /></a>
                 {/* logo will be text-white w-7 h-9" */}
               </div>
             </div>
@@ -114,7 +114,8 @@ export default function Home() {
           </div>
         </motion.section>
 
-        <section id="featured" className={styles.featured}>
+        <section className={styles.featured}>
+          <div id="featured" className={styles.divLine}></div>
           <motion.h1 className="h1" ref={ref} variants={fadeInVariant} initial="hidden" animate={control}>Featured Projects</motion.h1>
           <ProjectsBlock/>
         </section>

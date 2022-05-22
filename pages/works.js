@@ -53,9 +53,8 @@ export default function Works() {
                 <meta name="description" content="Portfolio of Joshua Eworo, Front End Developer based in Texas." />
             </Head>
 
+            <Navbar />
             <main className=''>
-                <Navbar />
-
                 <section className={styles.pageHeader}> 
                     <h1 className='h1'>Portfolio</h1>
                 </section>

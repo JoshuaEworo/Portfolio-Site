@@ -69,9 +69,13 @@
 /* -------------------- featured projects -------------------- */
 
 .featured{
-  @apply flex flex-col py-16;
+  @apply flex flex-col pb-16;
 }
 
+.divLine{
+  @apply w-full mb-24;
+  height: 1px;
+}
 /* -------------------- My story -------------------- */
 .about{
   @apply py-16 items-center;

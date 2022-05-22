@@ -1,5 +1,5 @@
 .pageHeader{
-    @apply flex flex-row mt-32  justify-center relative;
+    @apply flex flex-row pt-32  justify-center relative;
   }
 
   .pageHeader h1{
