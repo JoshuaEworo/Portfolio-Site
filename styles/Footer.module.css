@@ -19,5 +19,5 @@
 }
 
 .navLinks:hover{
-    @apply text-indigo-900;
+    @apply text-indigo-700;
   }

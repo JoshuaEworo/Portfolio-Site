@@ -22,7 +22,7 @@
 }
 
 .heroText h3{
- @apply text-indigo-900;
+ @apply text-indigo-700;
 }
 
 .heroText h1{
@@ -46,7 +46,7 @@
 }
 
 .heroLinks:hover{
-  @apply text-indigo-900;
+  @apply text-indigo-700;
 }
 
 .linksHolder{
