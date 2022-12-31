@@ -75,7 +75,7 @@ export default function ProjectsBlock(){
           name: 'ClientSyde - CRM App',
           tags: 'React | Bootstrap | Localhost',
           desc: 'A bare-bones web application for handling and keeping track of client information that has CRUD, search, and filter functionality.',
-          img: 'https://i.ibb.co/LCc498v/Client-SYDE-Logo.png',
+          img: 'https://i.ibb.co/M8F5N8R/Client-SYDE-Logo.png',
           viewdemo: 'https://JoshuaEworo.github.io/React-CRM-App',
           viewcode: 'https://github.com/JoshuaEworo/React-CRM-App',
         },
