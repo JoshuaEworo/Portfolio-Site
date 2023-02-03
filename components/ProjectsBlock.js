@@ -46,15 +46,16 @@ function ProjectsDiv({ project }){
 
 export default function ProjectsBlock(){
     const featuredProjects = [
-        {
-          id: 1,
-          name: 'Weather App',
-          tags: 'React | OpenWeatherApp API | CSS',
-          desc: 'A simple weather web application made with ReactJS and the OpenWeatherApp API.',
-          img: 'https://i.ibb.co/q1tmqTH/Weather-App-Logo-1.png',
-          viewdemo: 'https://joshuaeworo.github.io/React-Weather-App/',
-          viewcode: 'https://github.com/JoshuaEworo/React-Weather-App',
-        },
+//         {
+//           id: 1,
+//           name: 'Weather App',
+//           tags: 'React | OpenWeatherApp API | CSS',
+//           desc: 'A simple weather web application made with ReactJS and the OpenWeatherApp API.',
+//           img: 'https://i.ibb.co/q1tmqTH/Weather-App-Logo-1.png',
+//           viewdemo: 'https://joshuaeworo.github.io/React-Weather-App/',
+//           viewcode: 'https://github.com/JoshuaEworo/React-Weather-App',
+//         },
+//   Omitted Weather APP because i broke it
           // {
           //   name: 'Google Homepage UI Clone',
           //   tags: 'HTML | CSS',
