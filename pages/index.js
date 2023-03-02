@@ -139,16 +139,16 @@ export default function Home() {
         <motion.section className={styles.skills} ref={skillsRef} variants={fadeInVariant}initial="hidden" animate={skillsControl}>
           <h1 className="h1">Skills</h1>
           <div className={styles.skillsHolder}>
-              <span>HTML5</span>
-              <span>CSS3</span>
+              <span>HTML</span>
+              <span>CSS</span>
               <span>JavaScript</span>
               <span>React</span>
-              <span>User Experience</span>
-              <span>User Interface Design</span>
-              <span>Interaction Design</span>
-              <span>Storyboarding</span>
-              <span>Squarespace</span>
-              <span>ShowIt</span>
+              <span>NextJS</span>
+              <span>NodeJS</span>
+              <span>TailwindCSS</span>
+              <span>APIs</span>
+              <span>Firebase</span>
+              <span>Squarspace</span>
               <span>Figma</span>
               <span>Sketch</span>
           </div>
