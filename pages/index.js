@@ -81,8 +81,13 @@ export default function Home() {
     <div className="pageWrapper">
       <Head>
         <title>Joshua Eworo</title>
-        <meta name="description" content="Portfolio of Joshua Eworo, Front End Developer based in Texas." />
-        
+        <meta name="description" content="Portfolio of Joshua Eworo, Software Engineer based in Texas." />
+        <meta property="og:title" content="Joshua Eworo - Software Engineer Portfolio">
+        <meta property="og:description" content="Explore Joshua Eworo's software engineering portfolio.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://joshuaeworo.dev">
+        <meta property="og:image" content="https://i.ibb.co/KVqTSyj/E9-D2-B63-C-39-B9-4-C6-B-B6-A9-1944-F8-B9-C8-C3.jpg">
+        <meta property="og:site_name" content="Joshua Eworo">
       </Head>
 
       <Navbar />
@@ -148,7 +153,7 @@ export default function Home() {
               <span>TailwindCSS</span>
               <span>APIs</span>
               <span>Firebase</span>
-              <span>Squarspace</span>
+              <span>Squarespace</span>
               <span>Figma</span>
               <span>Sketch</span>
           </div>
