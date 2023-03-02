@@ -136,7 +136,7 @@ export default function Home() {
               <h1 className="h1">My story</h1>
               <div className={styles.aboutHolder}>
                   <div className={styles.aboutText}>
-                      <p>Hello, I&apos;m Joshua Eworo, a self-taught Front-end Developer based out of Houston.
+                      <p>Hello, I&apos;m Joshua Eworo, a self-taught software engineer based out of Houston.
                           I find joy in being able to bring together the worlds of creativity and logic.
                           I enjoy using my skill-set to create products that not only have beautiful aesthetics, but
                           have amazing utility as well.
