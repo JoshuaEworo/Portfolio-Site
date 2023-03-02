@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.footerHolder}>
                 <div className={styles.footerUp}>
-                    <p>@2021 Joshua Eworo</p>
+                    <p>@2023 Joshua Eworo</p>
                 </div>
                 <div className={styles.footerDown}>
                     <a href="https://github.com/JoshuaEworo" rel="noreferrer" target="_blank"><FaGithub className={styles.navLinks} /></a>
