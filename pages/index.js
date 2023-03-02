@@ -92,9 +92,8 @@ export default function Home() {
           <div className={styles.heroMain} >
             <div className={styles.heroText}>
               <h3 className={styles.heroH3}>HELLO, MY NAME IS JOSHUA EWORO</h3>
-              <h1>I am a Front-End Developer</h1>
-              <p>Front-end web developer &amp; designer based in Houston.
-                I specialize in the development of user-interface design for web applications and websites.</p>
+              <h1>I am a Software Engineer</h1>
+              <p>Engineer and designer based in Houston, Texas. Designing websites, building web applications, and tinkering with AI.</p>
             </div>
 
             <div className={styles.heroContact}>
