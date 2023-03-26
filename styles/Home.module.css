@@ -18,7 +18,7 @@
 
 .heroH3{
   @apply text-base lg:text-lg font-bold;
-  font-family: 'Sansation Bold';
+/*   font-family: 'Sansation Bold'; */
 }
 
 .heroText h3{
