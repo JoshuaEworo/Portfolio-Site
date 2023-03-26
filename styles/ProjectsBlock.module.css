@@ -8,7 +8,7 @@
 
 .caseStudy{
     @apply mt-5 text-indigo-700 font-bold flex flex-row gap-8;
-    font-family: 'Sansation';
+/*     font-family: 'Sansation'; */
 }
 
 .projects:nth-child(odd){
@@ -24,7 +24,7 @@
 }
 
 .projectHead h2{
-    font-family: 'Sansation Bold';
+/*     font-family: 'Sansation Bold'; */
 }
 
 .projectHead{
